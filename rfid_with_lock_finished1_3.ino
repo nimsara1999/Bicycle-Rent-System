@@ -11,14 +11,14 @@
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 
 //need to change********
-const char* ssid = "Redmi 8";
-const char* password = "23456789";
-String bicycleID="2";
-String tagID="8913144194";
+const char* ssid = <wifi ssid>;
+const char* password = <wifi password>;
+String bicycleID=<bicycle id>;
+String tagID=<rfid tag id>;
 int lockDelay=3000;
 int webUpdateDelay=8000;
 long rentTime=0;
-String IP="192.168.43.162";
+String IP= <local network ip or api end-point>;
 //***********************
 
 //pins esp8266***********
